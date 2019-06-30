@@ -1,14 +1,14 @@
-var express = require('express');
+var express = require("express");
 var router = express.Router();
-const users = require('../models').users
+const users = require("../models").users;
 
-router.get('/', (req, res, next) => {
-  users.findAll()
-    .then(users => {
-      res.json(users)
-    })
-    .catch(err => console.log(err))
+router.get("/", (req, res, next) => {
+    users
+        .findAll()
+        .then(users => {
+            res.json(users);
+        })
+        .catch(err => console.log(err));
 });
-
 
 module.exports = router;
