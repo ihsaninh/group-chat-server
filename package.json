@@ -16,6 +16,6 @@
     "morgan": "~1.9.1",
     "mysql2": "^1.6.5",
     "react-native-timeago": "^0.4.0",
-    "sequelize": "^5.9.0"
+    "sequelize": "^5.15.1"
   }
 }
